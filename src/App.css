@@ -1,0 +1,47 @@
+
+
+.app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.city {
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.main-card {
+  background-color: #fff;
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
+  background: #ffffff; 
+  padding: 20px; 
+  width: 100%; 
+  max-width: 1200px; 
+ 
+}
+
+.card-container {
+  display: flex; 
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.card {
+  background: #fff; 
+  padding: 16px;
+  width: 150px;
+  text-align: center; 
+}
+
+.weather-icon {
+  width: 50px; 
+  height: auto; 
+}
